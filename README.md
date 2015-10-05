@@ -8,7 +8,7 @@ cx_oracle
 
 Notes
 =====
-- There is two scripts: a python script and a bash wrapper script to set LD_LIBRARY_PATH
+- There are two scripts: a python script and a bash wrapper script to set LD_LIBRARY_PATH
 
 Author
 =====
