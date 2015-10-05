@@ -26,11 +26,11 @@ cursor.execute(sql)
 row = cursor.fetchone()
 failed = re.match( r'FAILED', row[0])
 if failed:
-	print "FAILED"
+	print job_name + " - FAILED"
 	sys.exit(2)
 succeed = re.match( r'SUCCEEDED', row[0])
 if succeeded:
-	print "SUCCEEDED"
+	print job_name + " - SUCCEEDED"
 	sys.exit(0)
 
 print "UKNOWN STATUS"
