@@ -4,8 +4,8 @@ A simple Python script to monitor a DBMS Scheduled job in Oracle.
 
 Dependencies
 ======
-Python 2.x
-cx_oracle
+- Python 2.x
+- cx_oracle
 
 Notes
 =====
